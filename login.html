@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,7 +17,7 @@
             margin: 0;
         }
         .login-container {
-            background-color: orange;
+            background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -52,6 +54,20 @@
             color: #4CAF50;
             text-decoration: none;
         }
+        /* Social icons section */
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+            color: #4CAF50;
+        }
+        .social-icons a:hover {
+            color: #45a049;
+        }
     </style>
 </head>
 <body>
@@ -71,7 +87,14 @@
                 <a href="#">Forgot password?</a>
             </div>
         </form>
+
+        <!-- Social media icons -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
     </div>
 
 </body>
 </html>
+
